@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.test.blob;
 
 import static com.test.blob.BlobUtils.BLOB_SAS_SERVICE;
@@ -23,7 +20,7 @@ public class AppendBlobLease {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppendBlobLease.class);
 
     public static final String LOCKED = "LOCKED";
-    public static final String TEST_MESSAGE = "Hello IPT, How are you doing?";
+    public static final String TEST_MESSAGE = "Hello there, How are you doing?";
     public static final String BLOB_CONTAINER_NAME = "abhi-test";
 
     public static void main(String[] args) {
