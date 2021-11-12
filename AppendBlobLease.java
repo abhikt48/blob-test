@@ -21,7 +21,7 @@ public class AppendBlobLease {
 
     public static final String LOCKED = "LOCKED";
     public static final String TEST_MESSAGE = "Hello there, How are you doing?";
-    public static final String BLOB_CONTAINER_NAME = "abhi-test";
+    public static final String BLOB_CONTAINER_NAME = "test";
 
     public static void main(String[] args) {
 
